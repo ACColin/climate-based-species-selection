@@ -1,0 +1,65 @@
+---
+title: "Add taxonomy to CCA"
+author: "Desi Quintans"
+date: "06/02/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+librarian::shelf(tidyverse, readxl)
+```
+
+## Aim
+
+To add taxonomic info to Currency Creek's list of trees.
+
+
+
+## Import data
+
+```{r }
+taxa_raw <- read_xlsx("_raw/DNTaxonomyCleaned.xlsx", skip = 1, na = "-")
+cca_raw <- read_xlsx("_raw/CCATreesCleaned.xlsx", skip = 1, na = "-")
+trydb_list <- read_tsv("_raw/Trydb Species List.txt")
+```
+
+
+
+## Join prepared taxonomy to CCA list
+
+```{r}
+merged <- left_join(cca_raw, taxa_raw, by = c("CurrentName" = "Binomial"))
+```
+
+
+## Filter out sections and series
+
+```{r}
+iris %>% 
+    group_by(Species) %>% 
+    sample_n(1) %>% 
+    View
+
+cca_filtered <- 
+    merged %>% 
+    # Keep only 4 sections
+    filter(Section %in% c("Maidenaria", "Eucalyptus", "Exsertaria", "Adnataria"),
+           between(YearPlanted, 1994, 2000)) %>% 
+    # For every series
+    group_by(Section, Series) %>%
+    identity()
+```
+
+
+
+## Does Trydb have all of the species you need?
+
+This is a list of the names that are in both the prepared taxonomy file AND Trydb
+
+```{r}
+available_spp <- 
+    semi_join(trydb_list, cca_filtered, by = c("AccSpeciesName" = "CurrentName"))
+```
+

@@ -1,0 +1,183 @@
+---
+title: "CCA Climate trait species selection"
+author: "Anne-Cecile Colin"
+date: "13/02/2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+##Climate-based species selection for phyloGWAS
+
+
+#Introduction
+
+This script was created in order to select species for the Currency Creek phyloGWAS sampling based on climate traits. The thought process was to overlap the location data of the CCA trees pop of origin from K. Murray with climatic data of Australia. This with the objective to select species across a climate gradient across series for each of the sections. The idea is for each section, visualize the climate of origin of the pop of origin trees to associate the genomic data with the climate of origin in order to associate adaptive variants with the climate of origin.
+
+The overall objective of the script is to extract the climate data for the coordinate points of the trees in Currency Creek available with the excel document 'Kevin_Murray_29Nov2019'. In this document there is 3 lats and 3 longs, which is not what we want considering that the lat and longs of wordclim are in the basic format.
+
+Therefore, the first part of the script consists in cleaning the data in order to match the format dataframe of the K. Murray trees pop of origin location excel doc with the worldclim format, and also to transform the lat and longs to fit correctly.
+In the last part it is all about plotting the pop of origin tree location with the climate data linked to it and using ggplot2 to visualize how the trees are distributed across climate and across series for each section in order to create a first selection list.
+With the output of that script then the objective with the created list is to select considering the distribution (widespread or rare) and other filters like the conservation status, NSW threatened list, presence in a TEC, etc.
+
+```{r setup, include=FALSE}
+library(raster)
+library(sp)
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+#Data cleaning and merging into a usable dataframe
+
+BIOCLIM are the Worldclim bioclimatic variables.
+ BIOCLIM Variables:
+*BIO1 = Annual Mean Temperature*
+BIO2 = Mean Diurnal Range (Mean of monthly (max temp - min temp))
+BIO3 = Isothermality (BIO2/BIO7) (* 100)
+BIO4 = Temperature Seasonality (standard deviation *100)
+*BIO5 = Max Temperature of Warmest Month*
+BIO6 = Min Temperature of Coldest Month
+BIO7 = Temperature Annual Range (BIO5-BIO6)
+BIO8 = Mean Temperature of Wettest Quarter
+BIO9 = Mean Temperature of Driest Quarter
+BIO10 = Mean Temperature of Warmest Quarter
+BIO11 = Mean Temperature of Coldest Quarter
+*BIO12 = Annual Precipitation*
+BIO13 = Precipitation of Wettest Month
+*BIO14 = Precipitation of Driest Month*
+BIO15 = Precipitation Seasonality (Coefficient of Variation)
+BIO16 = Precipitation of Wettest Quarter
+BIO17 = Precipitation of Driest Quarter
+BIO18 = Precipitation of Warmest Quarter
+BIO19 = Precipitation of Coldest Quarter
+
+We are going to use mean climate variables: BIO1 and BIO12 and extreme variables: BIO5 and BIO14 which are informative on the species climate selection and non correlative.
+
+
+Extracting the worldclim data (bioclim variables):
+```{r Extracting climate data}
+r <- getData("worldclim",var="bio",res=2.5)
+?getData
+r <- r[[c(1:19)]]
+names(r) <- c("BIO1","BIO2","BIO3","BIO4","BIO5","BIO6",
+              "BIO7","BIO8","BIO9","BIO10","BIO11","BIO12",
+              "BIO13","BIO14","BIO15","BIO16","BIO17","BIO18","BIO19")
+```
+
+CCA_meta is the dataset with all the lats and longs of the sample location of all trees at CCA. Then we ask R to read them correctly.
+```{r Assigning the latitude and longitude}
+setwd(Z:\PERSONAL\Colin_AC\Chapter I. Currency Creek\Species selection\CCA_species_selection\clean_data)
+coords <- read.csv("CCA_meta.csv", header=T)
+head(coords)
+coords$LatD <- as.numeric(as.character(coords$LatD))
+coords$LatM <- as.numeric(as.character(coords$LatM))
+coords$LatS <- as.numeric(as.character(coords$LatS))
+
+coords$LongD <- as.numeric(as.character(coords$LongD))
+coords$LongM <- as.numeric(as.character(coords$LongM))
+coords$LongS <- as.numeric(as.character(coords$LongS))
+
+```
+
+
+ Make the southern lats negative for them to be in the right format
+ 
+```{r Changing the lat and longs format}
+coords$Lat <- as.numeric(coords$LatD) + as.numeric(coords$LatM/60) + as.numeric(coords$LatS/60^2)
+coords$Long <- as.numeric(coords$LongD) + as.numeric(coords$LongM/60) + as.numeric(coords$LongS/60^2)
+head(coords)
+coords$Lat <- coords$Lat*-1 
+head(lats)
+```
+
+
+Remove the weird numbers in the data set (keeping only samples in Aus)
+
+```{r Merging the climate and tree data, removing outliers}
+coords.all <- coords[,c("Collector.s..",'Lat','Long')]
+coords <- na.omit(coords)
+head(coords.ll)
+coords.ll <- na.omit(coords.all)
+coords.ll <- coords.ll[,c(2,3)]
+plot(coords.ll$Long, coords.ll$Lat)
+?subset
+coords.sub <- subset(coords.ll, Long > 100) 
+min(coords.sub$Long)
+plot(coords.sub$Long, coords.sub$Lat)
+```
+
+```{r Creating the right data subset for plotting}
+coords.sub <- coords.sub[, c(2, 1)]
+```
+
+```{r Projection of the tree subset}
+points <- SpatialPoints(unique(coords.sub), proj4string = r@crs)
+plot(points)
+head(points)
+```
+
+
+Extracting the rasters to points
+```{r Extracting rasters points}
+values <- raster::extract(r, points)
+```
+
+
+
+```{r Using cbind for the overlapping climate and location points}
+df <- cbind.data.frame(coords,values)
+```
+
+```{r Cbinding }
+head(df     )
+df
+collected <- cbind(coords, col.sites)
+col.sites <- df
+head(collected.sites)
+collected.sites <- collected[-c(2,3)]
+```
+
+```{r}
+all.sites <- as.data.frame(values)
+head(all.sites)
+all.sites <- na.omit(as.data.frame(df))
+nrow(all.sites)
+nrow(coords.sub)
+nrow(unique(coords.sub))
+head(coords.sub)
+unique_sites.df <- cbind(unique(coords.sub),all.sites)
+head(unique_sites.df)
+```
+
+
+```{r Merging dataframe by longs}
+all.df<- na.omit(coords.all)
+head(all.df)
+nrow(unique(all.df))
+u.all.df <- unique(all.df)
+merged.df <- merge(unique_sites.df, u.all.df, by="Long") # by.x="Long, by.y="Long"
+
+head(merged.df)
+```
+
+```{r Merging dataframe removing the lat y}
+final.df <- merged.df[,c(22,1:21)]
+head(final.df)
+colnames(final.df)[1] <- "unique_ID"
+colnames(final.df)[3] <- "Lat"
+write.table(final.df, "CCA_worldclim_df.txt", quote = FALSE, row.names = FALSE)
+```
+
+cliamte extemes
+climate means
+
+
+#Mapping tree sample location with climate variables
+
+```{r Plotting trees sample location by climate vaiables}
+
+with(final.df, plot(BIO5, BIO14, cex=1, pch=16, col="grey46"))
+with(final.df, plot(BIO1, BIO12, cex=1, pch=16, col="grey46"))
+```
+
