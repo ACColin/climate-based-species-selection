@@ -92,7 +92,7 @@ head(final.dataframe)
 colnames(final.dataframe)[1] <- "unique_ID"
 colnames(final.dataframe)[3] <- "Lat"
 write.table(final.dataframe, "output/CCA_worldclim_df.txt", quote = FALSE, row.names = FALSE)
-
+write_csv(final.dataframe, "output/CCA_worldclim_df.csv")
 #plotting the data using the final.dataframe, ploting by variables 
 #cliamte extemes
 plot.extreme <- with(final.dataframe, plot(BIO5, BIO14, cex=1, pch=16, col="grey46"))
