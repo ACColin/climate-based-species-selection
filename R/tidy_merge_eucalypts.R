@@ -35,17 +35,19 @@ write.csv(final_sp_id_worldclim,"output/species_ID_worldclim.csv",row.names = F)
 taxa_raw <- read_xlsx("data/DNTaxonomyCleaned.xlsx", skip = 1, na = "-")
 id_worldclim_taxonomy <- left_join(final_sp_id_worldclim, taxa_raw, by = c("species" = "Binomial"))
 view(id_worldclim_taxonomy)
+unique_id_worldclim_taxonomy<-unique(id_worldclim_taxonomy)
+unique_cca_meta<-drop_na(unique_cca_meta,unique_id_worldclim_taxonomy$unique_ID)
 
-iris %>% 
-  group_by(Species) %>% 
-  sample_n(1) %>% 
-  View
+sub_cca_meta<-subset(unique_cca_meta, select=c(unique_ID,species,Year.planted))
+all_df<-cbind(sub_cca_meta,unique_id_worldclim_taxonomy,by='unique_ID')
 
-cca_filtered <- 
-  id_worldclim_taxonomy %>% 
-  # Keep only 4 sections
-  filter(Section %in% c("Maidenaria", "Eucalyptus", "Exsertaria", "Adnataria"),
-         between(YearPlanted, 1994, 2000)) %>% 
+# Keep only 4 sections
+  filter(Section %in% c("Maidenaria"),
+         between(YearPlanted, 1994, 2000)) %>%
+  ggplot(data = id_worldclim_taxonomy, mapping = aes(x = BIO1, y = BIO12)) + 
+  geom_point(mapping = aes(color = Section)) + 
+  geom_smooth(data = filter(mpg, class == "subcompact"), se = FALSE)
+
   # For every series
   group_by(Section, Series) %>%
   identity()
@@ -55,6 +57,9 @@ cca_filtered <-
 #filter that df by selection maidenaria only create a CSV for it as an output
 #do the same for each section
 #plot for each section
+
+
+
 
 #next step .... adding the other rasters
 
