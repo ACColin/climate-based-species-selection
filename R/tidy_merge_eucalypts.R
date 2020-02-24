@@ -54,6 +54,10 @@ cca_filtered <-
   filter(Section %in% c("Maidenaria", "Eucalyptus", "Exsertaria", "Adnataria"),
          between(year, 1994, 2000))
 view(cca_filtered)
+#output: a csv file with species / unique ID / bioclim data / taxonomic info
+write.csv(cca_filtered, "output/voucher.ID.taxonomic.bioclim.year.sections.info.csv")
+#cca_filtered is a dataframe which displays each CCA voucher tree unique_ID with the Lat and Longs of sample site and the bioclim variables associated with those sample sites. In the dataframe are only selected the mother trees within the Exsertaria, Maidenaria, Eucalyptus and Adnataria sections and when the seeds were planted. Only the seeds planted between 1994-2000 are shown to select trees that were planted at CCA during a general same period of time, at least 6 years before the drought of 2006 to ensure the trees were strong enough to endure the dry period of 2006. The dataframe doesn't show all trees at CCA, only the mother tree.
+#By voucher tree it also means that we have the list of species already considering that the trees planted from the voucher tree will be the same species
 
 #plot means
 plot.mean.section<-ggplot(data = cca_filtered, mapping = aes(x = BIO1, y = BIO12)) + 
@@ -72,46 +76,23 @@ dev.print(pdf, 'figs/plot_bioclim_extreme_CCA_sections.pdf')
 
 
 
-require(maps)
-require(viridis)
-theme_set(
-  theme_void()
-)
-aus<-c("Australia")
-aus.map <- map_data("world", region = aus)
+#filter that df by selection only create a CSV for it as an output to select across series
 
-region.lab.data <- aus.map %>%
-  group_by(region) %>%
-  summarise(long = mean(long), lat = mean(lat))
-  
-ggplot(aus.map, aes(x = long, y = lat)) +
-  geom_polygon(aes( group = group, fill = region))+
-  geom_text(aes(label = region), data = region.lab.data,  size = 3, hjust = 0.5)+
-  scale_fill_viridis_d()+
-  theme_void()+
-  theme(legend.position = "none")
+#maidenaria
+cca_filtered_maidenaria <- 
+  cca_filtered %>% 
+  filter(Section %in% c("Maidenaria"))
+view(cca_filtered_maidenaria)
+write.csv(cca_filtered_maidenaria, "output/voucher.ID.taxonomic.bioclim.year.maidenaria.csv")
 
-# For every series
-  group_by(Section, Series) %>%
-  identity()
+#exsertaria
+cca_filtered_exsertaria <- 
+  cca_filtered %>% 
+  filter(Section %in% c("Exsertaria"))
+view(cca_filtered_exsertaria)
+write.csv(cca_filtered_exsertaria, "output/voucher.ID.taxonomic.bioclim.year.exsertaria.csv")
 
 
-
-#############merge by unique_ID then select values (unique_ID,year,Long) then subset by Long > 100, check min and nrow
-
-
-
-
-
-
-
-  # For every series
-  group_by(Section, Series) %>%
-  identity()
-
-
-#output: a csv file with species / unique ID / bioclim data / taxonomic info
-#filter that df by selection maidenaria only create a CSV for it as an output
 #do the same for each section
 #plot for each section
 
