@@ -38,7 +38,7 @@ plot(coords.ll$Long, coords.ll$Lat)
 coords.sub <- subset(coords.ll, Long > 100) # remove the weird numbers in the data set (keeping only samples in Aus)
 min(coords.sub$Long)
 plot(coords.sub$Long, coords.sub$Lat)
-
+view(coords.sub)
 coords.sub <- coords.sub[, c(2, 1)]
 
 #getting our decimal degress points ready for spatial projection
