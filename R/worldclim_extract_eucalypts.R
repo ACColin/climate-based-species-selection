@@ -84,6 +84,7 @@ nrow(unique(all.dataframe))
 u.all.dataframe <- unique(all.dataframe)
 merged.dataframe <- merge(unique_sites.dataframe, u.all.dataframe, by="Long") # by.x="Long, by.y="Long"
 head(merged.dataframe)
+write_csv(merged.dataframe, "output/CCA_merged_df.csv")
 
 #Laty and Lat x are the same so we remove lat y and name Lat x = Lat, put collector.s as the first column and naming it unique_ID
 #data cleaned!

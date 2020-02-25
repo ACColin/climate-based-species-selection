@@ -20,7 +20,8 @@ sp_id<-select(cca_meta,"species","unique_ID","year")
 view(sp_id)
 nrow(sp_id)
 
-#working with df from worldclim_Extract_Eucs to filter using Long>100
+#working with df from worldclim_Extract_Eucs to filter
+merged.dataframe<-read.csv("output/CCA_merged_df.csv")
 colnames(merged.dataframe)[22]<-"unique_ID"
 view(merged.dataframe)
 all.df<-merge(merged.dataframe,sp_id, by='unique_ID')
@@ -33,7 +34,7 @@ full.df <- left_join(all.df, taxa_raw, by = c("species" = "Binomial"))
 view(full.df)
 nrow(full.df)
 
-#filter Long >100, unique
+#filter unique
 u_full.df<-
   full.df %>% distinct(full.df,unique_ID,.keep_all = T)
 view(u_full.df)
@@ -72,25 +73,61 @@ plot.extreme.section<-ggplot(data = cca_filtered, mapping = aes(x = BIO5, y = BI
   facet_grid(Section ~ .)
 
 print(plot.extreme.section)
-dev.print(pdf, 'figs/plot_bioclim_extreme_CCA_sections.pdf')
 
+plot.extreme<-ggplot(data = cca_filtered, mapping = aes(x = BIO5, y = BIO14)) + 
+  geom_point(mapping = aes(color = Section))
+
+print(plot.extreme)
+dev.print(pdf, 'figs/plot_bioclim_extreme_CCA.pdf')
+
+
+#####adding traits
+#euc_trait_table<-read.csv("data/euc_trait_table.csv", header = T)
+#view(euc_trait_table)
+#colnames(euc_trait_table)[2]<-"Species"
+#cca_filtered<-read.csv("output/voucher.ID.taxonomic.bioclim.year.sections.info.csv", header = T)
+#view(cca_filtered)
+#subset.euc_trait_table<-euc_trait_table[euc_trait_table$Species %in% cca_filtered$Species,]   # will keep data in euc_trait_table
+#view(subset.euc_trait_table)
+#cca_filtered_trait <- left_join(cca_filtered, subset.euc_trait_table, by ="Species")
+#view(cca_filtered_trait)
+sp.presence <- cca_filtered[31]
+view(sp.presence)
+sp.query <- euc_trait_table[2]
+view(sp.query) 
+mutate(a, result = a$col_A %in% b$col_B)
+<- sapply(cca_filtered, function(x) sp.presence %in% euc_trait_table$species, <=x )
 
 
 #filter that df by selection only create a CSV for it as an output to select across series
 
-#maidenaria
+#filter maidenaria
 cca_filtered_maidenaria <- 
   cca_filtered %>% 
   filter(Section %in% c("Maidenaria"))
 view(cca_filtered_maidenaria)
 write.csv(cca_filtered_maidenaria, "output/voucher.ID.taxonomic.bioclim.year.maidenaria.csv")
 
-#exsertaria
+#filter exsertaria
 cca_filtered_exsertaria <- 
   cca_filtered %>% 
   filter(Section %in% c("Exsertaria"))
 view(cca_filtered_exsertaria)
 write.csv(cca_filtered_exsertaria, "output/voucher.ID.taxonomic.bioclim.year.exsertaria.csv")
+
+#filter adnataria
+cca_filtered_adnataria <- 
+  cca_filtered %>% 
+  filter(Section %in% c("Adnataria"))
+view(cca_filtered_adnataria)
+write.csv(cca_filtered_adnataria, "output/voucher.ID.taxonomic.bioclim.year.adnataria.csv")
+
+#filter eucalyptus
+cca_filtered_eucalyptus <- 
+  cca_filtered %>% 
+  filter(Section %in% c("Eucalyptus"))
+view(cca_filtered_eucalyptus)
+write.csv(cca_filtered_eucalyptus, "output/voucher.ID.taxonomic.bioclim.year.eucalyptus.csv")
 
 
 #do the same for each section
@@ -99,5 +136,5 @@ write.csv(cca_filtered_exsertaria, "output/voucher.ID.taxonomic.bioclim.year.exs
 
 
 
-#next step .... adding the other rasters
+#next step .... adding the other filters
 
