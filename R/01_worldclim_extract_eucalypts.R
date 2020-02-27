@@ -38,7 +38,7 @@ plot(coords.ll$Long, coords.ll$Lat)
 coords.sub <- subset(coords.ll, Long > 100) # remove the weird numbers in the data set (keeping only samples in Aus)
 min(coords.sub$Long)
 plot(coords.sub$Long, coords.sub$Lat)
-view(coords.sub)
+#view(coords.sub)
 coords.sub <- coords.sub[, c(2, 1)]
 
 #getting our decimal degress points ready for spatial projection
@@ -93,7 +93,7 @@ head(final.dataframe)
 colnames(final.dataframe)[1] <- "unique_ID"
 colnames(final.dataframe)[3] <- "Lat"
 write.table(final.dataframe, "output/CCA_worldclim_df.txt", quote = FALSE, row.names = FALSE)
-write_csv(final.dataframe, "output/CCA_worldclim_df.csv")
+write.csv(final.dataframe, "output/CCA_worldclim_df.csv")
 #plotting the data using the final.dataframe, ploting by variables 
 #cliamte extemes
 plot.extreme <- with(final.dataframe, plot(BIO5, BIO14, cex=1, pch=16, col="grey46"))

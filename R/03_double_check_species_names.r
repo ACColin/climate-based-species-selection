@@ -2,9 +2,11 @@
 # Double-check Eucalyptus names -------------------------------------------
 
 librarian::shelf(tidyverse, taxize, DesiQuintans/taxizehelper)
-
-
-
+library(tidyverse)
+library(taxize)
+install.packages("devtools")
+devtools::install_github("DesiQuintans/taxizehelper")
+library(taxizehelper)
 # Import CCA species ------------------------------------------------------
 
 cca_raw <- read_csv("output/cca_filtered_trait.csv")
@@ -24,3 +26,4 @@ spp_names <-
 spp_names %>% 
     filter(str_detect(binomial, "Eucalyptus") == FALSE) %>% 
     View()
+
