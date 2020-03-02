@@ -14,6 +14,10 @@ view(cca_filtered_maidenaria)
 
 write.csv(cca_filtered_maidenaria, "output/voucher.ID.taxonomic.bioclim.year.maidenaria.csv")
 
+pearson_BIO1 <- select(cca_filtered_maidenaria, "species", "BIO1")
+pearson_BIO1 <- tidyr::spread(pearson_BIO1, species, BIO1, convert=T)
+view(pearson_BIO1)
+chisq.test(pearson_BIO1)
 #filter exsertaria
 cca_filtered_exsertaria <- 
   cca_filtered_trait %>% 
