@@ -1,6 +1,13 @@
 library(tidyverse)
 cca_filtered_trait <- read_csv("output/cca_filtered_trait.csv")
+#in order to compare with NSW threatened eucs list...
+#List obtained with OEH website (42sp. only)
+NSW.threatened.species<-read.csv("data/ProfileSearch", sep=",")
+view(NSW.threatened.species)
 
+#List obtained with BioNet Atlas on NSW website website (48sp.)
+NSW.threatened.species.full<-read.csv("data/NSW.threatened.eucs.species.list.csv")
+view(NSW.threatened.species.full)
 #model=lm(BIO1~species,data=cca_filtered_trait)
 #summary(model)
 #install.packages('multcomp')
@@ -55,8 +62,8 @@ print(Adna_ext)
 cca_Euca=cca_filtered_trait %>% 
   filter(Section=="Eucalyptus")
 cca_Euca$unique_ID=as.factor(cca_Euca$unique_ID)
-plot_ly(data=cca_Euca,x=~BIO1,y=~BIO12,size=20,color=~unique_ID,symbol=~Series,symbols=c(10:18))
-plot_ly(data=cca_Euca,x=~BIO5,y=~BIO14,size=20,color=~unique_ID,symbol=~Series,symbols=c(10:18))
+plot_ly(data=cca_Euca,x=~BIO1,y=~BIO12,size=20,color=~unique_ID,symbol=~Series,symbols=c(4:18))
+plot_ly(data=cca_Euca,x=~BIO5,y=~BIO14,size=20,color=~unique_ID,symbol=~Series,symbols=c(4:18))
 
 print(plot.extreme)
 dev.print(pdf, 'figs/plot_bioclim_extreme_CCA.pdf')
@@ -66,8 +73,8 @@ dev.print(pdf, 'figs/plot_bioclim_extreme_CCA.pdf')
 cca_Maid=cca_filtered_trait %>% 
   filter(Section=="Maidenaria")
 cca_Maid$unique_ID=as.factor(cca_Maid$unique_ID)
-plot_ly(data=cca_Maid,x=~BIO1,y=~BIO12,size=20,color=~unique_ID,symbol=~Series,symbols=c(10:18))
-plot_ly(data=cca_Maid,x=~BIO5,y=~BIO14,size=20,color=~unique_ID,symbol=~Series,symbols=c(10:18))
+plot_ly(data=cca_Maid,x=~BIO1,y=~BIO12,size=20,color=~unique_ID,symbol=~Series,symbols=c(4:18))
+plot_ly(data=cca_Maid,x=~BIO5,y=~BIO14,size=20,color=~unique_ID,symbol=~Series,symbols=c(4:18))
 
 print(plot.extreme)
 dev.print(pdf, 'figs/plot_bioclim_extreme_CCA.pdf')

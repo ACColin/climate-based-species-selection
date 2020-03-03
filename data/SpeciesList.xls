@@ -1,0 +1,1309 @@
+Data from the BioNet BioNet Atlas website, which holds records from a number of custodians. The data are only indicative and cannot be considered a comprehensive inventory, and may contain errors and omissions.
+Species listed under the Sensitive Species Data Policy may have their locations denatured (^ rounded to 0.1°; ^^ rounded to 0.01°).
+Copyright the State of NSW through the Office of Environment and Heritage.
+Search criteria : Public Report of all  Valid Records of Threatened (listed on TSC Act 1995) or Protected Plants (Genus: Eucalyptus) returned a total of 17,311 records of 48 species.<br/>Report generated on 3/03/2020 1:53 PM
+<div>
+	<table class="bordered" cellspacing="1" cellpadding="3" align="Right" rules="all" border="0" id="grdSpecies" style="border-width:0px;width:100%;">
+		<tr class="grid_header" valign="top" style="background-color:#CCCCCC;font-weight:bold;">
+			<th scope="col" style="color:Black;font-weight:bold;width:15%;">
+                                        <span id="grdSpecies_ctl01_lblHederR" name="KingdomName">Kingdom</span>
+                                    </th><th scope="col" style="width:5%;">Class</th><th scope="col" style="width:5%;">Family</th><th scope="col" style="width:5%;mso-number-format:\@;">Species Code</th><th scope="col" style="width:35%;">Scientific Name</th><th scope="col" style="width:5%;">Exotic</th><th scope="col" style="width:30%;">Common Name</th><th align="center" scope="col" style="width:5%;">NSW status</th><th align="center" scope="col" style="width:5%;">Comm. status</th><th scope="col" style="width:5%;">Records</th><th scope="col" style="width:5%;">Info</th>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl02_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl02_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl02_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl02_lblSpeciesID">4038</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl02_lblTaxonNameR" style="font-style:italic;">Eucalyptus aggregata</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl02_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl02_Label2">Black Gum</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl02_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl02_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl02_lblRecord">607</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl02_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=20128" id="grdSpecies_ctl02_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl03_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl03_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl03_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl03_lblSpeciesID">4038</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl03_lblTaxonNameR" style="font-style:italic;">Eucalyptus aggregata</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl03_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl03_Label2">Eucalyptus aggregata population in the Wingecaribee local government area</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl03_lblNSWStatus">E2,V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl03_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl03_lblRecord">42</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl03_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=20270" id="grdSpecies_ctl03_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl04_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl04_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl04_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl04_lblSpeciesID">10949</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl04_lblTaxonNameR" style="font-style:italic;">Eucalyptus alligatrix subsp. alligatrix</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl04_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl04_Label2"></span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl04_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl04_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl04_lblRecord">11</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl04_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10281" id="grdSpecies_ctl04_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl05_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl05_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl05_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl05_lblSpeciesID">4044</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl05_lblTaxonNameR" style="font-style:italic;">Eucalyptus approximans</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl05_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl05_Label2">Barren Mountain Mallee</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl05_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl05_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl05_lblRecord">22</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl05_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10282" id="grdSpecies_ctl05_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl06_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl06_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl06_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl06_lblSpeciesID">8850</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl06_lblTaxonNameR" style="font-style:italic;">Eucalyptus aquatica</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl06_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl06_Label2">Broad-leaved Sally</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl06_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl06_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl06_lblRecord">367</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl06_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10283" id="grdSpecies_ctl06_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl07_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl07_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl07_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl07_lblSpeciesID">4055</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl07_lblTaxonNameR" style="font-style:italic;">Eucalyptus benthamii</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl07_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl07_Label2">Camden White Gum</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl07_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl07_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl07_lblRecord">697</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl07_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10284" id="grdSpecies_ctl07_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl08_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl08_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl08_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl08_lblSpeciesID">11294</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl08_lblTaxonNameR" style="font-style:italic;">Eucalyptus boliviana</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl08_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl08_Label2">Bolivia Stringybark</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl08_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl08_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl08_lblRecord">14</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl08_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10285" id="grdSpecies_ctl08_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl09_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl09_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl09_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl09_lblSpeciesID">9517</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl09_lblTaxonNameR" style="font-style:italic;">Eucalyptus caleyi subsp. ovendenii</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl09_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl09_Label2">Ovenden's Ironbark</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl09_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl09_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl09_lblRecord">18</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl09_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10286" id="grdSpecies_ctl09_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl10_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl10_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl10_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl10_lblSpeciesID">6360</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl10_lblTaxonNameR" style="font-style:italic;">Eucalyptus camaldulensis</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl10_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl10_Label2">Eucalyptus camaldulensis population in the Hunter catchment</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl10_lblNSWStatus">E2</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl10_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl10_lblRecord">1275</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl10_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10968" id="grdSpecies_ctl10_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl11_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl11_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl11_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl11_lblSpeciesID">4067</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl11_lblTaxonNameR" style="font-style:italic;">Eucalyptus camfieldii</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl11_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl11_Label2">Camfield's Stringybark</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl11_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl11_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl11_lblRecord">2553</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl11_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10287" id="grdSpecies_ctl11_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl12_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl12_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl12_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl12_lblSpeciesID">9161</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl12_lblTaxonNameR" style="font-style:italic;">Eucalyptus camphora subsp. relicta</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl12_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl12_Label2">Warra Broad-leaved Sally</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl12_lblNSWStatus">E1</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl12_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl12_lblRecord">19</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl12_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10288" id="grdSpecies_ctl12_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl13_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl13_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl13_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl13_lblSpeciesID">8326</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl13_lblTaxonNameR" style="font-style:italic;">Eucalyptus cannonii</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl13_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl13_Label2">Capertee Stringybark</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl13_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl13_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl13_lblRecord">540</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl13_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10289" id="grdSpecies_ctl13_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl14_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl14_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl14_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl14_lblSpeciesID">10890</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl14_lblTaxonNameR" style="font-style:italic;">Eucalyptus canobolensis</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl14_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl14_Label2">Silver-Leaf Candlebark</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl14_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl14_lblCommStatus">E</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl14_lblRecord">173</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl14_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10290" id="grdSpecies_ctl14_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl15_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl15_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl15_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl15_lblSpeciesID">11612</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl15_lblTaxonNameR" style="font-style:italic;">Eucalyptus castrensis</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl15_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl15_Label2">Singleton Mallee</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl15_lblNSWStatus">E1</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl15_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl15_lblRecord">155</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl15_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10928" id="grdSpecies_ctl15_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl16_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl16_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl16_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl16_lblSpeciesID">8849</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl16_lblTaxonNameR" style="font-style:italic;">^^Eucalyptus copulans</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl16_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl16_Label2"></span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl16_lblNSWStatus">E1,3</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl16_lblCommStatus">E</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl16_lblRecord">24</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl16_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10291" id="grdSpecies_ctl16_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl17_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl17_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl17_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl17_lblSpeciesID">10020</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl17_lblTaxonNameR" style="font-style:italic;">Eucalyptus corticosa</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl17_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl17_Label2">Creswick Apple Box</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl17_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl17_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl17_lblRecord">182</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl17_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10292" id="grdSpecies_ctl17_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl18_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl18_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl18_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl18_lblSpeciesID">9719</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl18_lblTaxonNameR" style="font-style:italic;">^^Eucalyptus dissita</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl18_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl18_Label2">Gibraltar Mallee</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl18_lblNSWStatus">V,3</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl18_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl18_lblRecord">78</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl18_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10293" id="grdSpecies_ctl18_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl19_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl19_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl19_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl19_lblSpeciesID">9720</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl19_lblTaxonNameR" style="font-style:italic;">Eucalyptus fracta</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl19_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl19_Label2">Broken Back Ironbark</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl19_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl19_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl19_lblRecord">37</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl19_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10294" id="grdSpecies_ctl19_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl20_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl20_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl20_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl20_lblSpeciesID">4096</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl20_lblTaxonNameR" style="font-style:italic;">Eucalyptus glaucina</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl20_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl20_Label2">Slaty Red Gum</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl20_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl20_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl20_lblRecord">879</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl20_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10295" id="grdSpecies_ctl20_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl21_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl21_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl21_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl21_lblSpeciesID">4106</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl21_lblTaxonNameR" style="font-style:italic;">^^Eucalyptus imlayensis</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl21_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl21_Label2">Imlay Mallee</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl21_lblNSWStatus">E4A,3</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl21_lblCommStatus">E</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl21_lblRecord">15</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl21_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10296" id="grdSpecies_ctl21_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl22_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl22_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl22_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl22_lblSpeciesID">4110</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl22_lblTaxonNameR" style="font-style:italic;">Eucalyptus kartzoffiana</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl22_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl22_Label2">Araluen Gum</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl22_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl22_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl22_lblRecord">100</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl22_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10297" id="grdSpecies_ctl22_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl23_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl23_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl23_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl23_lblSpeciesID">9518</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl23_lblTaxonNameR" style="font-style:italic;">Eucalyptus langleyi</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl23_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl23_Label2">Albatross Mallee</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl23_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl23_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl23_lblRecord">62</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl23_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10298" id="grdSpecies_ctl23_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl24_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl24_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl24_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl24_lblSpeciesID">9518</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl24_lblTaxonNameR" style="font-style:italic;">Eucalyptus langleyi</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl24_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl24_Label2">Eucalyptus langleyi population north of the Shoalhaven River in the Shoalhaven local government area</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl24_lblNSWStatus">E2,V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl24_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl24_lblRecord">62</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl24_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=20155" id="grdSpecies_ctl24_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl25_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl25_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl25_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl25_lblSpeciesID">4113</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl25_lblTaxonNameR" style="font-style:italic;">Eucalyptus largeana</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl25_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl25_Label2">Craven Grey Box</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl25_lblNSWStatus">E1</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl25_lblCommStatus">E</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl25_lblRecord">641</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl25_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=20268" id="grdSpecies_ctl25_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl26_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl26_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl26_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl26_lblSpeciesID">6961</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl26_lblTaxonNameR" style="font-style:italic;">Eucalyptus leucoxylon subsp. pruinosa</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl26_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl26_Label2">Yellow Gum</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl26_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl26_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl26_lblRecord">19</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl26_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=20050" id="grdSpecies_ctl26_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl27_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl27_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl27_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl27_lblSpeciesID">4119</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl27_lblTaxonNameR" style="font-style:italic;">Eucalyptus macarthurii</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl27_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl27_Label2">Paddys River Box, Camden Woollybutt</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl27_lblNSWStatus">E1</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl27_lblCommStatus">E</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl27_lblRecord">1344</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl27_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=20037" id="grdSpecies_ctl27_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl28_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl28_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl28_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl28_lblSpeciesID">8713</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl28_lblTaxonNameR" style="font-style:italic;">Eucalyptus magnificata</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl28_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl28_Label2">Northern Blue Box</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl28_lblNSWStatus">E1</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl28_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl28_lblRecord">44</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl28_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10299" id="grdSpecies_ctl28_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl29_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl29_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl29_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl29_lblSpeciesID">4123</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl29_lblTaxonNameR" style="font-style:italic;">Eucalyptus mckieana</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl29_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl29_Label2">McKie's Stringybark</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl29_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl29_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl29_lblRecord">222</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl29_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10300" id="grdSpecies_ctl29_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl30_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl30_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl30_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl30_lblSpeciesID">9028</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl30_lblTaxonNameR" style="font-style:italic;">Eucalyptus microcodon</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl30_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl30_Label2">Border Mallee</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl30_lblNSWStatus">E1</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl30_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl30_lblRecord">297</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl30_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10301" id="grdSpecies_ctl30_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl31_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl31_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl31_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl31_lblSpeciesID">4134</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl31_lblTaxonNameR" style="font-style:italic;">Eucalyptus nicholii</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl31_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl31_Label2">Narrow-leaved Black Peppermint</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl31_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl31_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl31_lblRecord">245</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl31_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10302" id="grdSpecies_ctl31_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl32_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl32_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl32_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl32_lblSpeciesID">4141</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl32_lblTaxonNameR" style="font-style:italic;">Eucalyptus oblonga</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl32_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl32_Label2">Eucalyptus oblonga population at Bateau Bay, Forresters Beach and Tumbi Umbi in the Wyong local government area</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl32_lblNSWStatus">E2</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl32_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl32_lblRecord">18</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl32_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10943" id="grdSpecies_ctl32_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl33_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl33_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl33_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl33_lblSpeciesID">10888</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl33_lblTaxonNameR" style="font-style:italic;">Eucalyptus oresbia</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl33_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl33_Label2">Small-fruited Mountain Gum</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl33_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl33_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl33_lblRecord">44</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl33_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10303" id="grdSpecies_ctl33_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl34_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl34_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl34_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl34_lblSpeciesID">9925</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl34_lblTaxonNameR" style="font-style:italic;">^^Eucalyptus pachycalyx subsp. banyabba</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl34_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl34_Label2">Banyabba Shiny-barked Gum</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl34_lblNSWStatus">E1,3</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl34_lblCommStatus">E</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl34_lblRecord">26</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl34_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10304" id="grdSpecies_ctl34_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl35_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl35_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl35_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl35_lblSpeciesID">9163</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl35_lblTaxonNameR" style="font-style:italic;">Eucalyptus parramattensis subsp. decadens</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl35_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl35_Label2"></span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl35_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl35_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl35_lblRecord">3564</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl35_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10305" id="grdSpecies_ctl35_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl36_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl36_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl36_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl36_lblSpeciesID">8959</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl36_lblTaxonNameR" style="font-style:italic;">Eucalyptus parramattensis subsp. parramattensis</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl36_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl36_Label2">Eucalyptus parramattensis C. Hall. subsp. parramattensis in Wyong and Lake Macquarie local government areas</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl36_lblNSWStatus">E2</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl36_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl36_lblRecord">119</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl36_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10306" id="grdSpecies_ctl36_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl37_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl37_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl37_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl37_lblSpeciesID">9519</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl37_lblTaxonNameR" style="font-style:italic;">Eucalyptus parvula</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl37_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl37_Label2">Small-leaved Gum</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl37_lblNSWStatus">E1</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl37_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl37_lblRecord">208</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl37_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10307" id="grdSpecies_ctl37_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl38_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl38_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl38_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl38_lblSpeciesID">4163</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl38_lblTaxonNameR" style="font-style:italic;">Eucalyptus pulverulenta</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl38_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl38_Label2">Silver-leafed Gum</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl38_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl38_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl38_lblRecord">153</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl38_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10308" id="grdSpecies_ctl38_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl39_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl39_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl39_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl39_lblSpeciesID">4164</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl39_lblTaxonNameR" style="font-style:italic;">Eucalyptus pumila</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl39_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl39_Label2">Pokolbin Mallee</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl39_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl39_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl39_lblRecord">128</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl39_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10309" id="grdSpecies_ctl39_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl40_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl40_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl40_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl40_lblSpeciesID">7598</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl40_lblTaxonNameR" style="font-style:italic;">Eucalyptus recurva</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl40_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl40_Label2">Mongarlowe Mallee</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl40_lblNSWStatus">E4A</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl40_lblCommStatus">CE</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl40_lblRecord">21</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl40_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10310" id="grdSpecies_ctl40_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl41_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl41_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl41_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl41_lblSpeciesID">9520</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl41_lblTaxonNameR" style="font-style:italic;">Eucalyptus robertsonii subsp. hemisphaerica</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl41_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl41_Label2">Robertson's Peppermint</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl41_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl41_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl41_lblRecord">25</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl41_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10311" id="grdSpecies_ctl41_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl42_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl42_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl42_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl42_lblSpeciesID">9164</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl42_lblTaxonNameR" style="font-style:italic;">Eucalyptus rubida subsp. barbigerorum</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl42_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl42_Label2">Blackbutt Candlebark</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl42_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl42_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl42_lblRecord">245</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl42_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10312" id="grdSpecies_ctl42_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl43_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl43_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl43_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl43_lblSpeciesID">8382</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl43_lblTaxonNameR" style="font-style:italic;">Eucalyptus saxatilis</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl43_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl43_Label2">Suggan Buggan Mallee</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl43_lblNSWStatus">E1</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl43_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl43_lblRecord">20</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl43_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10313" id="grdSpecies_ctl43_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl44_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl44_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl44_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl44_lblSpeciesID">8907</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl44_lblTaxonNameR" style="font-style:italic;">Eucalyptus scoparia</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl44_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl44_Label2">Wallangarra White Gum</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl44_lblNSWStatus">E1</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl44_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl44_lblRecord">71</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl44_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10315" id="grdSpecies_ctl44_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl45_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl45_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl45_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl45_lblSpeciesID">4179</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl45_lblTaxonNameR" style="font-style:italic;">Eucalyptus seeana</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl45_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl45_Label2">Eucalyptus seeana population in the Greater Taree local government area</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl45_lblNSWStatus">E2</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl45_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl45_lblRecord">57</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl45_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10316" id="grdSpecies_ctl45_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl46_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl46_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl46_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl46_lblSpeciesID">11892</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl46_lblTaxonNameR" style="font-style:italic;">Eucalyptus sp. Cattai</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl46_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl46_Label2"></span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl46_lblNSWStatus">E4A</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl46_lblCommStatus">CE</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl46_lblRecord">565</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl46_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10317" id="grdSpecies_ctl46_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl47_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl47_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl47_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl47_lblSpeciesID">11893</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl47_lblTaxonNameR" style="font-style:italic;">Eucalyptus sp. Howes Swamp Creek</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl47_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl47_Label2"></span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl47_lblNSWStatus">E1</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl47_lblCommStatus">E</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl47_lblRecord">12</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl47_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10900" id="grdSpecies_ctl47_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl48_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl48_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl48_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl48_lblSpeciesID">4190</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl48_lblTaxonNameR" style="font-style:italic;">Eucalyptus sturgissiana</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl48_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl48_Label2">Ettrema Mallee</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl48_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl48_lblCommStatus"></span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl48_lblRecord">226</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl48_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10318" id="grdSpecies_ctl48_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr><tr class="tabletext" align="left" valign="top" style="background-color:#EEEEEE;">
+			<td align="left" style="width:70px;">
+                                        <span id="grdSpecies_ctl49_lblKing">Plantae</span>
+                                        <br />
+                                    </td><td align="center" style="width:80px;">
+                                        <span id="grdSpecies_ctl49_Label1">Flora</span>
+                                    </td><td align="center" style="width:95px;">
+                                        <span id="grdSpecies_ctl49_Label3">Myrtaceae</span>
+                                    </td><td align="center" style="width:70px;mso-number-format:\@;">
+                                        <span id="grdSpecies_ctl49_lblSpeciesID">4193</span>
+                                    </td><td style="width:150px;">
+                                        <span id="grdSpecies_ctl49_lblTaxonNameR" style="font-style:italic;">Eucalyptus tetrapleura</span>
+                                    </td><td style="width:90px;">
+                                        <span id="grdSpecies_ctl49_Label22"></span>
+                                    </td><td style="width:170px;">
+                                        <span id="grdSpecies_ctl49_Label2">Square-fruited Ironbark</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl49_lblNSWStatus">V</span>
+                                    </td><td align="center" style="width:50px;">
+                                        <span id="grdSpecies_ctl49_lblCommStatus">V</span>
+                                    </td><td align="center" style="width:55px;">
+                                        <span id="grdSpecies_ctl49_lblRecord">1065</span>
+                                    </td><td align="center" style="width:30px;">
+                                        <span id="grdSpecies_ctl49_imgProfileID"><a href="https://www.environment.nsw.gov.au/threatenedspeciesapp/profile.aspx?id=10319" id="grdSpecies_ctl49_aThreatenedSpeciesProfile">
+                                            <img alt="Species Description PDF file" src='http://www.environment.nsw.gov.au/AtlasPublicApp/Shared/images/iconInfo.gif'
+                                                border="0" name="descrip"></a></span>
+                                    </td>
+		</tr>
+	</table>
+</div>
