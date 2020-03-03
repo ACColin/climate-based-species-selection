@@ -1,7 +1,9 @@
+####        STEP 3: SELECTION PER SECTION
+
+
 library(tidyverse)
 cca_filtered_trait <- read_csv("output/cca_filtered_trait.csv")
 #in order to compare with NSW threatened eucs list...
-#List obtained with OEH website (42sp. only)
 NSW.threatened.species<-read.csv("data/ProfileSearch", sep=",")
 view(NSW.threatened.species)
 
@@ -13,7 +15,7 @@ view(NSW.threatened.species.full)
 #install.packages('multcomp')
 #library(multcomp)
 
-
+### To keep but not used here..
 #modelAdna=lm(BIO1~species,data=cca_Adna) 
 #summary(modelAdna)
 #Adna=aov(cca_Adna$BIO1~cca_Adna$species)
@@ -32,6 +34,13 @@ view(NSW.threatened.species.full)
 #pwpp(test,method='pairwise',side='=')
 
 
+######### Plots for species selection with mean/extreme climate variables
+
+# BIO1; mean annual temperature
+# BIO5: highest temperature of the warmest month
+# BIO12: mean annual precipitation
+# BIO14: precipitation of the wetest month
+
 cca_filtered_trait$species=as.factor(cca_filtered_trait$species)
 cca_Adna=cca_filtered_trait %>% 
   filter(Section=="Adnataria")
@@ -43,12 +52,10 @@ cca_Adna=cca_filtered_trait %>%
 
 
 ######### Plots for species selection with mean/extreme climate variables
+
 library(plotly)
-#BIO1; mean annual temperature
-#BIO5: highest temperature of the warmest month
-#BIO12: mean annual precipitation
-#BIO14: precipitation of the wetest month
-#Section Adnataria
+
+# Section Adnataria
 cca_Adna$unique_ID=as.factor(cca_Adna$unique_ID)
 library(viridis)
 Adna_mean <- plot_ly(data=cca_Adna,x=~BIO1,y=~BIO12,size=20,color=~unique_ID,symbol=~Series,symbols=c(10:18))
@@ -58,7 +65,7 @@ Adna_ext <- plot_ly(data=cca_Adna,x=~BIO5,y=~BIO14,size=20,color=~unique_ID,symb
 print(Adna_ext)
 
 
-#Section Eucalytpus
+# Section Eucalytpus
 cca_Euca=cca_filtered_trait %>% 
   filter(Section=="Eucalyptus")
 cca_Euca$unique_ID=as.factor(cca_Euca$unique_ID)
@@ -69,7 +76,7 @@ print(plot.extreme)
 dev.print(pdf, 'figs/plot_bioclim_extreme_CCA.pdf')
 
 
-#Section Maidenaria
+# Section Maidenaria
 cca_Maid=cca_filtered_trait %>% 
   filter(Section=="Maidenaria")
 cca_Maid$unique_ID=as.factor(cca_Maid$unique_ID)
@@ -80,7 +87,7 @@ print(plot.extreme)
 dev.print(pdf, 'figs/plot_bioclim_extreme_CCA.pdf')
 
 
-#Section Exsertaria
+# Section Exsertaria
 cca_Exser=cca_filtered_trait %>% 
   filter(Section=="Exsertaria")
 cca_Exser$unique_ID=as.factor(cca_Exser$unique_ID)

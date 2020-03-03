@@ -101,7 +101,7 @@ nrow(unique(all.dataframe))
 u.all.dataframe <- unique(all.dataframe)
 merged.dataframe <- merge(unique_sites.dataframe, u.all.dataframe, by="Long") # by.x="Long, by.y="Long"
 head(merged.dataframe)
-write_csv(merged.dataframe, "output/CCA_merged_df.csv")
+write.csv(merged.dataframe, "output/CCA_merged_df.csv")
 
 # Laty = Lat x. removing Lat y and naming Lat x = Lat
 # naming collector.s = unique_ID
@@ -125,14 +125,12 @@ write.csv(final.dataframe, "output/CCA_worldclim_df.csv")
 #   - BIO14: Precipitation of Driest Month
 
 plot.extreme <- with(final.dataframe, plot(BIO5, BIO14, cex=1, pch=16, col="grey46"))
-print(plot.extreme)
 dev.print(pdf, 'figs/plot_bioclim_extreme_CCA_trees_origin.pdf')
 
 # Plot by climate means:
 #   - BIO1: Mean Annual Temperature
 #   - BIO12: Annual Precipitation
 plot.mean <- with(final.dataframe, plot(BIO1, BIO12, cex=1, pch=16, col="grey46"))
-print(plot.mean)
 dev.print(pdf, 'figs/plot_bioclim_mean_CCA_trees_origin.pdf')
 
 # end of script 01_worldclim_extract_eucalypts.R

@@ -1,4 +1,6 @@
-#librarian::shelf(sp, raster, stats, nycflights13, tidyverse, plyr, readxl)
+####        STEP 2: TAXONOMY DATA INPUT & FILTERING
+
+
 library(sp)
 library(raster)
 library(stats)
@@ -13,7 +15,8 @@ cca_meta<-read.csv("data/CCA_meta.csv",header=T,na = "-")
 #view(cca_worldclim)
 #view(cca_meta)
 
-#create subset of CCA meta with only taxa / ID / year for filter later
+# create subset of CCA meta with only taxa / unique_ID / offspring tree reps year of plantation for subsequent filtering
+
 colnames(cca_meta)[1]<-"species"
 colnames(cca_meta)[3]<-"unique_ID"
 colnames(cca_meta)[18]<-"year"
@@ -24,21 +27,21 @@ sp_id <- select(cca_meta,"species","unique_ID","year")
 #view(sp_id)
 nrow(sp_id)
 
-#working with df from worldclim_Extract_Eucs to filter
+# merging df from STEP 1 with sp_id for year of plantation
 merged.dataframe<-read.csv("output/CCA_merged_df.csv")
 colnames(merged.dataframe)[22]<-"unique_ID"
 #view(merged.dataframe)
 all.df<-merge(merged.dataframe,sp_id, by='unique_ID')
 #view(all.df)
 
-#merge all df: year, ID, Long, taxo, bioclim
+# merge all df: adding the full taxonomy description to previous df
 taxa_raw <- read_xlsx("data/DNTaxonomyCleaned.xlsx", skip = 1, na = "-")
 #view(taxa_raw)
 full.df <- left_join(all.df, taxa_raw, by = c("species" = "Binomial"))
 #view(full.df)
 nrow(full.df)
 
-#filter unique
+# filter unique_ID again
 u_full.df<-
   full.df %>% distinct(unique_ID,.keep_all = T)
 #view(u_full.df)
@@ -52,26 +55,44 @@ min(u_full.df$Long)
 #view(u_full.df)
 nrow(u_full.df)
 
-#filter for each section, year window and plot
+# Filter for:
+#     - Sections: Maidenaria, Exsertaria, Adnataria & Eucalyptus
+#     - Year window: 1994 - 2000 (planted roughly at the same time, around 6 years before first drought at CCA to ensure good implantation and growth prior drought) (1994 - 2000 also include the biggest blocks, 1993 and 2001 can be included if needed -> check CCA blocks map)
+
 cca_filtered <- 
   u_full.df %>% 
-  # Keep only 4 sections
   filter(Section %in% c("Maidenaria", "Eucalyptus", "Exsertaria", "Adnataria"),
          between(year, 1994, 2000))
 #view(cca_filtered)
-#output: a csv file with species / unique ID / bioclim data / taxonomic info
-write.csv(cca_filtered, "output/voucher.ID.taxonomic.bioclim.year.sections.info.csv")
-#cca_filtered is a dataframe which displays each CCA voucher tree unique_ID with the Lat and Longs of sample site and the bioclim variables associated with those sample sites. In the dataframe are only selected the mother trees within the Exsertaria, Maidenaria, Eucalyptus and Adnataria sections and when the seeds were planted. Only the seeds planted between 1994-2000 are shown to select trees that were planted at CCA during a general same period of time, at least 6 years before the drought of 2006 to ensure the trees were strong enough to endure the dry period of 2006. The dataframe doesn't show all trees at CCA, only the mother tree.
-#By voucher tree it also means that we have the list of species already considering that the trees planted from the voucher tree will be the same species
 
-#plot means
+# output: a csv file with species / unique ID / bioclim data / taxonomic info
+write.csv(cca_filtered, "output/voucher.ID.taxonomic.bioclim.year.sections.info.csv")
+
+# More thorough description of the df... cca_filtered is a dataframe which displays:
+#       - each CCA voucher tree (unique_ID)
+#       - with the Lat and Longs of sample site
+#       - and the bioclim variables associated with the sample sites.
+# In the dataframe are only selected the mother trees within the Exsertaria, Maidenaria, Eucalyptus and Adnataria sections and when the seeds were planted.
+# Only the seeds planted between 1994-2000 are shown to select trees that were planted at CCA during a general same period of time, at least 6 years before 2006's drought to ensure the trees were strong enough to endure the dry period.
+# The dataframe doesn't show all trees (replicates) at CCA, only the mother tree.
+
+
+
+#       DATA VISUALS
+
+#plot climate means
 plot.mean.section<-ggplot(data = cca_filtered, mapping = aes(x = BIO1, y = BIO12)) + 
-  geom_point(mapping = aes(color = Section))
+  geom_point(mapping = aes(color = Section))+
+  facet_grid(Section ~ .)
 
 print(plot.mean.section)
 dev.print(pdf, 'figs/plot_bioclim_mean_CCA_sections.pdf')
 
-#plot extremes
+plot.mean<-ggplot(data = cca_filtered, mapping = aes(x = BIO1, y = BIO12)) + 
+  geom_point(mapping = aes(color = Section))
+print(plot.mean)
+
+#plot climate extremes
 plot.extreme.section<-ggplot(data = cca_filtered, mapping = aes(x = BIO5, y = BIO14)) + 
   geom_point(mapping = aes(color = Section))+
   facet_grid(Section ~ .)
@@ -85,7 +106,8 @@ print(plot.extreme)
 dev.print(pdf, 'figs/plot_bioclim_extreme_CCA.pdf')
 
 
-#####adding traits
+##### Adding flora traits
+# Flora traits extracted from bibliography by Desi Quintans (PhD student in Paul's lab group)
 euc_trait_table <- 
     read.csv("data/euc_trait_table.csv", header = T) %>% 
     mutate(species_name = 
@@ -121,3 +143,4 @@ count(spp_in_both_tables, Section)
 
 count(missing_spp_in_cca, Section) %>% View
 
+########################################
