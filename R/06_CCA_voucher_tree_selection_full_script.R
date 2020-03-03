@@ -222,14 +222,14 @@ write.csv(cca_filtered, "output/voucher.ID.taxonomic.bioclim.year.sections.info.
 
 #       DATA VISUALS
 
-#plot means
+#plot climate means
 plot.mean.section<-ggplot(data = cca_filtered, mapping = aes(x = BIO1, y = BIO12)) + 
   geom_point(mapping = aes(color = Section))
 
 print(plot.mean.section)
 dev.print(pdf, 'figs/plot_bioclim_mean_CCA_sections.pdf')
 
-#plot extremes
+#plot climate extremes
 plot.extreme.section<-ggplot(data = cca_filtered, mapping = aes(x = BIO5, y = BIO14)) + 
   geom_point(mapping = aes(color = Section))+
   facet_grid(Section ~ .)
@@ -243,7 +243,8 @@ print(plot.extreme)
 dev.print(pdf, 'figs/plot_bioclim_extreme_CCA.pdf')
 
 
-#####adding traits
+##### Adding flora traits
+# Flora traits extracted from bibliography by Desi Quintans (PhD student in Paul's lab group)
 euc_trait_table <- 
   read.csv("data/euc_trait_table.csv", header = T) %>% 
   mutate(species_name = 
@@ -251,7 +252,70 @@ euc_trait_table <-
            str_remove_all(" (var|subsp)\\. NA"))
 
 cca_filtered_trait <- left_join(cca_filtered, euc_trait_table, by = c("species" = "species_name"))
-
 write_csv(cca_filtered_trait, "output/cca_filtered_trait.csv")
 
+# end of script 02_tidy_merge_eucalypts.R
 
+
+############################################
+
+####        STEP 3: SELECTION PER SECTION
+
+# (copy of script 05_trees_selection_with_species_list_sec.R)
+
+library(tidyverse)
+library(plotly)
+library(viridis)
+
+cca_filtered_trait <- read_csv("output/cca_filtered_trait.csv")
+#in order to compare with NSW threatened eucs list...
+#List obtained with BioNet Atlas on NSW website (48sp.)
+NSW.threatened.species.full<-read.csv("data/NSW.threatened.eucs.species.list.csv")
+view(NSW.threatened.species.full)
+
+######### Plots for species selection with mean/extreme climate variables
+
+# BIO1; mean annual temperature
+# BIO5: highest temperature of the warmest month
+# BIO12: mean annual precipitation
+# BIO14: precipitation of the wetest month
+
+# Section Adnataria
+cca_Adna$unique_ID=as.factor(cca_Adna$unique_ID)
+Adna_mean <- plot_ly(data=cca_Adna,x=~BIO1,y=~BIO12,size=20,color=~unique_ID,symbol=~Series,symbols=c(10:18))
+print(Adna_mean)
+Adna_ext <- plot_ly(data=cca_Adna,x=~BIO5,y=~BIO14,size=20,color=~unique_ID,symbol=~Series,symbols=c(10:18))
+print(Adna_ext)
+
+
+# Section Eucalytpus
+cca_Euca=cca_filtered_trait %>% 
+  filter(Section=="Eucalyptus")
+cca_Euca$unique_ID=as.factor(cca_Euca$unique_ID)
+plot_ly(data=cca_Euca,x=~BIO1,y=~BIO12,size=20,color=~unique_ID,symbol=~Series,symbols=c(4:18))
+plot_ly(data=cca_Euca,x=~BIO5,y=~BIO14,size=20,color=~unique_ID,symbol=~Series,symbols=c(4:18))
+
+print(plot.extreme)
+dev.print(pdf, 'figs/plot_bioclim_extreme_CCA.pdf')
+
+
+# Section Maidenaria
+cca_Maid=cca_filtered_trait %>% 
+  filter(Section=="Maidenaria")
+cca_Maid$unique_ID=as.factor(cca_Maid$unique_ID)
+plot_ly(data=cca_Maid,x=~BIO1,y=~BIO12,size=20,color=~unique_ID,symbol=~Series,symbols=c(4:18))
+plot_ly(data=cca_Maid,x=~BIO5,y=~BIO14,size=20,color=~unique_ID,symbol=~Series,symbols=c(4:18))
+
+print(plot.extreme)
+dev.print(pdf, 'figs/plot_bioclim_extreme_CCA.pdf')
+
+
+# Section Exsertaria
+cca_Exser=cca_filtered_trait %>% 
+  filter(Section=="Exsertaria")
+cca_Exser$unique_ID=as.factor(cca_Exser$unique_ID)
+plot_ly(data=cca_Exser,x=~BIO1,y=~BIO12,size=20,color=~unique_ID,symbol=~Series,symbols=c(10:18))
+plot_ly(data=cca_Exser,x=~BIO5,y=~BIO14,size=20,color=~unique_ID,symbol=~Series,symbols=c(10:18))
+
+print(plot.extreme)
+dev.print(pdf, 'figs/plot_bioclim_extreme_CCA.pdf')

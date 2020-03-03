@@ -5,7 +5,7 @@ cca_filtered_trait <- read_csv("output/cca_filtered_trait.csv")
 NSW.threatened.species<-read.csv("data/ProfileSearch", sep=",")
 view(NSW.threatened.species)
 
-#List obtained with BioNet Atlas on NSW website website (48sp.)
+#List obtained with BioNet Atlas on NSW website (48sp.)
 NSW.threatened.species.full<-read.csv("data/NSW.threatened.eucs.species.list.csv")
 view(NSW.threatened.species.full)
 #model=lm(BIO1~species,data=cca_filtered_trait)
