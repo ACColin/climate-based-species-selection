@@ -33,10 +33,14 @@ colnames(merged.dataframe)[22]<-"unique_ID"
 #view(merged.dataframe)
 all.df<-merge(merged.dataframe,sp_id, by='unique_ID')
 #view(all.df)
+write.csv(all.df, "output/CCA.dataframe.all.species.csv")
+?write.csv
+### Matching taxonomy using taxizehelper (check script n.3)
+
 
 # merge all df: adding the full taxonomy description to previous df
 taxa_raw <- read_xlsx("data/DNTaxonomyCleaned.xlsx", skip = 1, na = "-")
-#view(taxa_raw)
+view(taxa_raw)
 full.df <- left_join(all.df, taxa_raw, by = c("species" = "Binomial"))
 #view(full.df)
 nrow(full.df)

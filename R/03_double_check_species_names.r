@@ -9,9 +9,10 @@ devtools::install_github("DesiQuintans/taxizehelper")
 library(taxizehelper)
 # Import CCA species ------------------------------------------------------
 
-cca_raw <- read_csv("output/cca_filtered_trait.csv")
 
-
+cca_raw <- read.csv("output/CCA.dataframe.all.species.csv", header =T, sep = ",")
+view(cca_raw)
+?read.csv
 
 # Check names with taxize -------------------------------------------------
 

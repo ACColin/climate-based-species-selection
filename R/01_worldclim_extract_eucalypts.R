@@ -1,6 +1,6 @@
 ####        STEP 1: WORLDCLIM DATA INPUT
 
-
+library(tidyverse)
 library(raster)
 library(sp)
 library(stats)
@@ -64,7 +64,7 @@ plot(coords.ll$Long, coords.ll$Lat)
 coords.sub <- subset(coords.ll, Long > 100) # remove the weird numbers in the data set (keeping only samples in Australia)
 min(coords.sub$Long)
 plot(coords.sub$Long, coords.sub$Lat)
-#view(coords.sub)
+view(coords.sub)
 coords.sub <- coords.sub[, c(2, 1)]
 
 
@@ -92,7 +92,7 @@ head(unique_sites.dataframe)
 # but we don't know which trees they are, we need the voucher unique ID for each point...
 all.dataframe<- na.omit(coords.all)
 head(all.dataframe)
-
+#view(all.dataframe)
 # keeping unique ID, removing duplicates
 # merging bioclim data and tree ID data by long variable
 nrow(unique(all.dataframe))
@@ -100,7 +100,7 @@ u.all.dataframe <- unique(all.dataframe)
 merged.dataframe <- merge(unique_sites.dataframe, u.all.dataframe, by="Long") # by.x="Long, by.y="Long"
 head(merged.dataframe)
 write_csv(merged.dataframe, "output/CCA_merged_df.csv")
-
+#view(merged.dataframe)
 # Laty = Lat x. removing Lat y and naming Lat x = Lat
 # naming collector.s = unique_ID
 # data cleaned!
@@ -110,7 +110,7 @@ colnames(final.dataframe)[1] <- "unique_ID"
 colnames(final.dataframe)[3] <- "Lat"
 write.table(final.dataframe, "output/CCA_worldclim_df.txt", quote = FALSE, row.names = FALSE)
 write.csv(final.dataframe, "output/CCA_worldclim_df.csv")
-
+#view(final.dataframe)
 
 
 
