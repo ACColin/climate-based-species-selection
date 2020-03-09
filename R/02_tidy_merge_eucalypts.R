@@ -8,7 +8,7 @@ library(nycflights13)
 library(plyr)
 library(readxl)
 library(tidyverse)
-
+detach("package:raster", unload=TRUE)
 cca_worldclim<-read.csv("output/CCA_worldclim_df.csv",header=T,na = "-")
 cca_meta<-read.csv("data/CCA_meta.csv",header=T,na = "-")
 

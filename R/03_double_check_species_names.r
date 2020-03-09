@@ -10,9 +10,12 @@ library(taxizehelper)
 # Import CCA species ------------------------------------------------------
 
 
-cca_raw <- read.csv("output/CCA.dataframe.all.species.csv", header =T, sep = ",")
+cca_raw <- read.csv("output/CCA.dataframe.all.species.csv", header =TRUE, sep = ",")
 view(cca_raw)
 ?read.csv
+class(cca_raw$species)
+glimpse(cca_raw)
+cca_raw %>% mutate_if(is.factor, as.character) -> cca_raw
 
 # Check names with taxize -------------------------------------------------
 
@@ -25,6 +28,7 @@ spp_names <-
     search_gnr()
 
 spp_names %>% 
-    filter(str_detect(binomial, "Eucalyptus") == FALSE) %>% 
+    filter(str_detect(binomial, "Eucalyptus") == TRUE) %>% 
     View()
 
+old.and.cleaned.taxo
