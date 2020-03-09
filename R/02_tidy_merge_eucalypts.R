@@ -1,6 +1,6 @@
 ####        STEP 2: TAXONOMY DATA INPUT & FILTERING
 
-
+librarian::shelf(sp, raster, tidyverse, readxl, plyr)
 library(sp)
 library(raster)
 library(stats)
@@ -32,9 +32,33 @@ merged.dataframe<-read.csv("output/CCA_merged_df.csv")
 colnames(merged.dataframe)[22]<-"unique_ID"
 #view(merged.dataframe)
 all.df<-merge(merged.dataframe,sp_id, by='unique_ID')
-#view(all.df)
+#(all.df)
 write.csv(all.df, "output/CCA.dataframe.all.species.csv")
 ?write.csv
+
+
+### Which species in the old taxonomy are not found in the cleaned taxonomy? --------------------------
+
+u_all.df<-
+  all.df %>% distinct(unique_ID,.keep_all = T)
+nrow(all.df)
+nrow(u_all.df)
+view(u_all.df)
+taxa_raw <- read_xlsx("data/DNTaxonomyCleaned.xlsx", skip = 1, na = "-")
+view(taxa_raw)
+
+missing.old.sp <- anti_join(u_all.df, taxa_raw, by = c("species" = "Binomial"))
+view(missing.old.sp)
+nrow(missing.old.sp)
+
+### Which species in the cleaned taxonomy are not found in the old taxonomy? --------------------------
+
+missing.new.sp <- anti_join(taxa_raw, u_all.df, by = c("Binomial" = "species"))
+view(missing.new.sp)
+nrow(missing.new.sp)
+
+# So there is more than 300 sp. that have a different name between the old and new taxonomy basically
+
 ### Matching taxonomy using taxizehelper (check script n.3)
 
 
@@ -44,7 +68,8 @@ view(taxa_raw)
 full.df <- left_join(all.df, taxa_raw, by = c("species" = "Binomial"))
 #view(full.df)
 nrow(full.df)
-
+#adding taxonomy not possible for now so replaced by old taxo: basically all.df changed name to full.df to work the following script
+full.df <-all.df
 # filter unique_ID again
 u_full.df<-
   full.df %>% distinct(unique_ID,.keep_all = T)
@@ -66,7 +91,7 @@ nrow(u_full.df)
 cca_filtered <- 
   u_full.df %>% 
   filter(Section %in% c("Maidenaria", "Eucalyptus", "Exsertaria", "Adnataria"),
-         between(year, 1994, 2000))
+         between(year, 1994, 2001))
 #view(cca_filtered)
 
 # output: a csv file with species / unique ID / bioclim data / taxonomic info
