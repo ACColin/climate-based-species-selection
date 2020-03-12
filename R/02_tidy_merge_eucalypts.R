@@ -8,6 +8,7 @@ library(nycflights13)
 library(plyr)
 library(readxl)
 library(tidyverse)
+
 detach("package:raster", unload=TRUE)
 cca_worldclim<-read.csv("output/CCA_worldclim_df.csv",header=T,na = "-")
 cca_meta<-read.csv("data/CCA_meta.csv",header=T,na = "-")
@@ -36,6 +37,7 @@ all.df<-merge(merged.dataframe,sp_id, by='unique_ID')
 write.csv(all.df, "output/CCA.dataframe.all.species.csv")
 ?write.csv
 
+# ----- To make the original script work, ignore this section and start with clean environment from script #1 -------
 
 ### Which species in the old taxonomy are not found in the cleaned taxonomy? --------------------------
 
@@ -44,6 +46,7 @@ u_all.df<-
 nrow(all.df)
 nrow(u_all.df)
 view(u_all.df)
+write_csv(u_all.df, "output/u_all.df.csv")
 taxa_raw <- read_xlsx("data/DNTaxonomyCleaned.xlsx", skip = 1, na = "-")
 view(taxa_raw)
 
@@ -58,15 +61,35 @@ view(missing.new.sp)
 nrow(missing.new.sp)
 
 # So there is more than 300 sp. that have a different name between the old and new taxonomy basically
+# A lot of inconsistency in the species name using characters like:
+# '', x (letter) or × (cross symbol), with ' - ' and '-', upper AND lower case inconsistency
+# The hybrids: change symbol to letter in DNTaxoCleaned, I don't trust symbols in R
+# Sometimes there is descriptions in brackets () after the species name, will be moved to an additional decription column
+# Need to check what doesn't match after that (compare row names) and do it manually.
+# Should work by sorting in alphabetical order after doing all the cleaning w/ stringr.
+# The unmatching rows should result from taxonomy change for a species.
+#symbol: × & letter: x
 
-### Matching taxonomy using taxizehelper (check script n.3)
+# Let's start...
+ 
+taxa_raw.clean <- read_xlsx("output/DNTaxonomyCleaned.cleaned.xlsx", skip = 1, na = "-")
+u_all.df.clean <- read.csv("output/u_all.df.clean.csv", header = TRUE)
 
+u_all.df$species <- str_to_lower(u_all.df$species)
+taxa_raw.clean$Binomial <- str_to_lower(taxa_raw$Binomial)
+u_all.df$species <- str_split_fixed(u_all.df$species, "[(]", 2)
+#u_all.df$species <- str_replace_all(u_all.df$species, "'", "")
+df <- view(u_all.df.clean)
+taxa <- view(taxa_raw.clean)
+nrow(u_all.df.clean)
+nrow(taxa_raw.clean)
+# -------------------------------------------------------------------------------------------------------------------
 
 # merge all df: adding the full taxonomy description to previous df
 taxa_raw <- read_xlsx("data/DNTaxonomyCleaned.xlsx", skip = 1, na = "-")
 view(taxa_raw)
-full.df <- left_join(all.df, taxa_raw, by = c("species" = "Binomial"))
-#view(full.df)
+full.df <- left_join(u_all.df.clean, taxa_raw.clean, by = c("species" = "Binomial"))
+view(full.df)
 nrow(full.df)
 #adding taxonomy not possible for now so replaced by old taxo: basically all.df changed name to full.df to work the following script
 full.df <-all.df
@@ -74,12 +97,12 @@ full.df <-all.df
 u_full.df<-
   full.df %>% distinct(unique_ID,.keep_all = T)
 #view(u_full.df)
-colnames(u_full.df)[3]<-"Lat"
-u_full.df[[23]]<-NULL
+colnames(u_full.df)[4]<-"Lat"
+u_full.df[[24]]<-NULL
 nrow(u_full.df)
 min(u_full.df$Long)
 
-
+write.csv(u_full.df, "output/CCA.species.info.full.dataframe.final.csv")
 
 #view(u_full.df)
 nrow(u_full.df)
@@ -92,7 +115,7 @@ cca_filtered <-
   u_full.df %>% 
   filter(Section %in% c("Maidenaria", "Eucalyptus", "Exsertaria", "Adnataria"),
          between(year, 1994, 2001))
-#view(cca_filtered)
+view(cca_filtered)
 
 # output: a csv file with species / unique ID / bioclim data / taxonomic info
 write.csv(cca_filtered, "output/voucher.ID.taxonomic.bioclim.year.sections.info.csv")
